@@ -116,3 +116,34 @@ function writePassword() {
 
 // Add event listener to generate button
 generateBtn.addEventListener('click', writePassword);
+
+
+**************************************
+
+
+// Add event listener to generate button
+//generateBtn.addEventListener('click', writePassword);
+
+// Creates a confirm box which takes in true or false for using numbers.
+let confirmSelection = confirm(" IMPORTANT INFORMATION ABOUT YOUR PASSWORD          Passwords must contain: at least 1 lower [a-z] and 1 UPPER case letter [A-Z], at least 1 numeric character [0-9] & at least 1 special character. Passwords must be at least 10 characters in length");
+
+// Asks for number of characters required and expects response in numbers.
+let confirmCharacters = prompt("How many characters do you require between 10 and 64?");
+
+// Creates a confirm box which takes in true or false for using numbers.
+let confirmNumbers = confirm("Will you include Numbers?");
+
+// Creates a confirm box which takes in true or false for using symbols.
+let confirmSymbols = confirm("Will you include Symbols?");
+
+// Creates a confirm box which takes in true or false for using uppercase.
+let confirmUpper = confirm("Will you include UpperCase?");
+
+// Creates a confirm box which takes in true or false for using lowercase.
+let confirmLower = confirm("Will you include LowerCase?");
+
+
+
+
+
+

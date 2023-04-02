@@ -7,22 +7,23 @@
 html,
 body,
 .wrapper {
-  height: 100%;
-  background-color: lavender;
+  width:fit-content;
+  height: fit-content;
   margin: 0;
   padding: 0;
 }
 
 body {
   font-family: Georgia, 'Times New Roman', Times, serif;
-  background-color: lavenderblush
+  background-color: rgb(207, 133, 179);
   
 }
 
 .wrapper {
-  padding-top: 30px;
+  padding-top: 50px;
   padding-left: 20px;
   padding-right: 20px;
+  column-width: center;
   }
 
 header {
@@ -114,7 +115,7 @@ button[disabled] {
   margin-top: 20px;
   margin-bottom: 20px;
   border: 2px dotted #540e7c;
-  border-radius: 660px;
+  border-radius: 66px;
   resize: none;
   overflow: hidden;
 }
